@@ -1,0 +1,31 @@
+h1 {
+  font-family:sans-serif;
+  color:#00ef05;
+}
+
+p {
+  color:gray;
+}
+
+img {
+  width:100px;
+  border-style:dashed;
+  border-color:blue;
+  border-width:5px;
+}
+
+ul {
+  width:100px;
+}
+
+li {
+  padding:0;
+  border-style:solid;
+  border-color:#000000;
+  border-width:1px;
+}
+
+table {
+  border-width:1px;
+  border-color:#abcdef;
+}

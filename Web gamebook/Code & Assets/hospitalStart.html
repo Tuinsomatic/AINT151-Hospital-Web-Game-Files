@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Choose Name</title>
+  <link rel="stylesheet" href="hospitalHome.css" />
+  <script>
+    function StoreData()
+    {
+      var name = document.forms[0]["playerName"].value;
+      localStorage.setItem("playName", name);
+    }
+  </script>
+</head>
+
+<body>
+<div class="higher" id="StartPage">
+  <form method="post" action="hospitalHome.html" onSubmit="StoreData()" id="StartForm">
+  	Player name: <input type="text" name="playerName" />
+    <input type="submit" />
+  </form>
+</div>
+</body>

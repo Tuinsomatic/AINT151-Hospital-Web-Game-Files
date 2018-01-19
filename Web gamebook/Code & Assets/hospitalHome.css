@@ -1,0 +1,82 @@
+html{
+  background-color:#BAE3E3;
+}
+
+#StartPage{
+  width:1500px;
+  height:1000px;
+  margin:0 auto;
+}
+
+#StartForm{
+  margin-top:300px;
+}
+
+#container{
+  width:1400px;
+  height:1000px;
+  margin:0 auto;
+}
+
+#placeText{
+  min-height:150px;
+}
+
+#placeOptions{
+  width:690px;
+  height:160px;
+}
+
+.higher{
+  float:left;
+  background-color:#AAD3D3;
+  width:695px;
+  height:480px;
+  text-align:center;
+}
+
+#questtitle{
+  height:0px;
+}
+
+h1{
+  text-align:center;
+}
+
+h3{
+  text-align:center;
+  font-family:serif;
+}
+
+p{
+  margin-left:10px;
+  margin-right:10px;
+  text-align:left;
+  font-family:monospace;
+  font-size:16px;
+}
+
+button{
+  margin:80px;
+  margin-top:50px;
+  margin-bottom:0px;
+  min-width:150px;
+}
+
+.lower{
+  float:left;
+  background-color:#808080;
+  width:190px;
+  height:190px;
+  margin:5px;
+  text-align:center;
+}
+
+#backpack{
+  background-color:#B70000;
+  margin-left:0px;
+}
+
+#item6{
+  margin-right:0px;
+}

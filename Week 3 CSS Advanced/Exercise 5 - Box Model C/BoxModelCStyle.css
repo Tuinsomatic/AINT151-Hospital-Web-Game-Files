@@ -1,0 +1,29 @@
+div#header{
+  background-color:lightgray;
+  width:900px;
+  height:70px;
+  margin:10px 10px 0px 0px;
+  text-align:center;
+}
+
+.box{
+  float:left;
+  margin: 5px 10px 5px 0px;
+  width:81px;
+  height:81px;
+  background-color:lightgray;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+div#footer{
+  clear:left;
+  background-color:lightgray;
+  width:900px;
+  height:30px;
+  margin:10px 10px 10px 0px;
+  text-align:center;
+}

@@ -1,0 +1,19 @@
+body {
+  margin:0px;
+}
+
+li{
+  width:60px;
+  background-color:#004F93;
+  border-style:solid;
+  border-width:2px;
+  border-color:white;
+}
+
+li a {
+  color:white;
+}
+
+li:hover {
+  background-color:#008F93
+}
