@@ -1,3 +1,9 @@
+
+var hasHook, hasPliers, hasKey2, hasKey1, hasBrick, hasHandle, elecTrigger, pliersEventTriggered;
+var char = 0;
+var index = 0;
+var internalString;
+
 function LetterWord() //pA = placesArray[ind]
 {
   switch (placesArray[index].text.charAt(char))
@@ -53,10 +59,6 @@ function makeSound(str)
   sound.play();
 }
 
-var hasHook, hasPliers, hasKey2, hasKey1, hasBrick, hasHandle, elecTrigger, pliersEventTriggered;
-var char = 0;
-var index = 0;
-var internalString;
 
 function EnterRoom(ind)
 {
